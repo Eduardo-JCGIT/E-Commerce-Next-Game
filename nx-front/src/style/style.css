@@ -26,7 +26,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: poppins;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: var(--white);
 }
 
@@ -121,6 +121,12 @@ nav li a:hover{
 
 /*Section (Pagina de bienvenida)*/
 
+/*Container cards de pagina de bienvenida*/
+
+.body-marg{
+    margin: 0 8%;
+}
+
 h1{
     text-align: center;
     padding-top: 3%;
@@ -140,23 +146,26 @@ h1{
     text-align: left;
     display: flex;
     background-color: var(--blue-rey);
+    border-radius: 10px;
 }
+
 
 .card2{
     width: 100%;
-    margin: 0 5px;
+    margin: 5px 5px;
     text-align: left;
     display: flex;
     background-color: var(--light-gray);
     color: var(--text-black);
+    border-radius: 10px;
 }
 
 .cards h2{
-    font-size: 2vw;
+    font-size: 1.9vw;
 }
 
 .cards p{
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 .cards h3{
@@ -164,11 +173,13 @@ h1{
 }
 
 .card1 img{
-    width: 25vw;
+    width: 21vw;
+    border-radius: 10px;
 }
 
 .card2 img{
-    width: 25vw;
+    width: 21vw;
+    border-radius: 10px;
 }
 
 
@@ -185,34 +196,44 @@ h1{
     display: inline-block;
     text-align: center;
     margin: 5px 0;
-    width: 100%;
 }
 
+
+/*Imagenes de las 3 noticias destacadas*/
 
 .card2-bk img{
     width: 100%;
+    border-radius: 20px;
 }
+
+/*Primer noticia o evento destacado (Genshin Impact y Fortnite)*/
+
+/*Info de Fortnite*/
 
 .card2-bk .img-bk-plasm{
     position: absolute;
     top: 20%;
-    left: 47%;
+    left: 50%;
     width: 50%;
 }
 
+
 .card2-bk .text-bk-ft{
     position: absolute;
-    top: 65%;
-    left: 42%;
+    top: 58%;
+    left: 45%;
     margin: 0 5%;
     font-size: 1.9vw;
     transform: translate(5%);
 }
 
+/*Info de Genshin*/
+
 .card2-bk h2{
     position: absolute;
-    top: 30%;
-    left: 57%;
+    top: 20%;
+    left: 3%;
+    margin-right: 90%;
     font-size: 2.2vw;
     box-sizing: border-box;
 }
@@ -220,29 +241,28 @@ h1{
 .card2-bk p{
     position: absolute;
     top: 50%;
-    left: 50%;
-    margin: 0 5%;
-    font-size: 1.5vw;
-    transform: translate(5%);
+    left: 2%;
+    font-size: 1.2vw;
+    margin-right: 76%;
     box-sizing: border-box;
 }
 
+/*Tercera noticia o evento destacada (MW)*/
 
 .card2-bk .text-bk-ft2{
     position: absolute;
     top: 65%;
-    left: 5%;
-    margin: 0 5%;
-    font-size: 2vw;
-    transform: translate(10%);
+    margin: 0 0;
+    font-size: 1.8vw;
+    transform: translate(20%);
 }
 
 .card2-bk .text-bk-ft3 p{
     position: absolute;
     top: 60%;
     left: 5%;
-    margin: 0 5%;
-    font-size: 1.4vw;
+    margin: 0 0;
+    font-size: 1.3vw;
     transform: translate(-2%);
 }
 
@@ -1179,7 +1199,7 @@ a{
 
     .card2-bk h2{
         position: absolute;
-        font-size: 5vw;
+        font-size: 50vw;
         left: 0%;
         transform: translate(5%);
         top: 60%;

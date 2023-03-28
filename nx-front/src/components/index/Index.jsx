@@ -12,11 +12,11 @@ function Index () {
             </header>
             <main className="body-marg">
     <section>
-      <h1>Descubre nuestra variedad de productos</h1>
+      <h1>¿Qué es lo AFREFASEAESSque tenemos hoy para ti? </h1>
 
       <div className="cards">
         <div className="card1">
-        <img src={require(`../../img/principal/secciones/FORZA5.jpg`)}  alt="" />
+        <img src={require(`../../img/principal/secciones/FORZA51.jpg`)}  alt="" />
           <div className="descrip">
             <h2>Descubre nuevos horizontes en México</h2>
             <br />
@@ -27,7 +27,7 @@ function Index () {
           </div>
         </div>
         <div className="card1">
-          <img src={require(`../../img/principal/secciones/XboxSeriesX.jpg`)} alt="" />
+          <img src={require(`../../img/principal/secciones/XboxSeriesX1.jpg`)} alt="" />
           <div className="descrip">
             <h2>Alimenta tus sueños</h2>
             <h2>Xbox Series X</h2>
@@ -41,15 +41,14 @@ function Index () {
 
       <div className="card2-bk">
         <div className="img-genshin-pc">
-        <img src={require(`../../img/principal/destacado/3GenshinPC.jpg`)} alt="Genshin" />
+        <img src={require(`../../img/principal/destacado/4GenshinPC2.jpg`)} alt="Genshin" />
         </div>
         <div className="img-genshin-mobile">
           <img src={require(`../../img/principal/destacado/3GenshinMobile.jpg`)} alt="" />
         </div>
-        <h2>FARUZÁN: LEGADO DE LA SABIDURÍA</h2>
+        <h2>Hálito vientoflorido</h2>
         <p>
-          Obtén gratis 700 protogemas y 20000 moras al adquirir cualquier
-          producto en nuestra tienda.
+        En el aire ya se vuelven a sentir los dulces aromas del Festival de las Flores de Viento.
         </p>
       </div>
       <div className="cards">
@@ -67,12 +66,11 @@ function Index () {
           </div>
         </div>
         <div className="card2">
-          <img src={require(`../../img/principal/secciones/Stray.jpg`)} alt="" />
+          <img src={require(`../../img/principal/secciones/Cyberpunk2077.jpg`)} alt="" />
           <div className="descrip">
-            <h2>Call of Duty®: Modern Warfare® II</h2>
+            <h2>Cyberpunk 2077</h2>
             <br />
-            <p>El equipo 141 esta de regreso.</p>
-            <p>Disponible dos tipos de ediciones.</p>
+            <p>Historia de acción y aventura en mundo abierto ambientada en Night City.</p>
             <br />
             <h3>Descubre más +</h3>
           </div>
@@ -85,22 +83,20 @@ function Index () {
             alt=""
           />
           <div className="descrip">
-            <h2>Multijugador disponible</h2>
+            <h2>Dentro de Ecos</h2>
             <br />
-            <p>Juega ahora con game pass con solo $10.</p>
-            <p>Xbox Series S|X.</p>
+            <p>Disponible ahora la temporada 3 de Halo Inifnite, nuevos mapas, armaduras y pase de batalla.</p>
             <br />
             <h3>Descubre más +</h3>
           </div>
         </div>
         <div className="card1">
-          <img src={require(`../../img/principal/secciones/NFSHP.jpg`)} alt="" />
+          <img src={require(`../../img/principal/secciones/HogwardsL.jpg`)} alt="" />
           <div className="descrip">
-            <h2>Siento la necesidad, la necesidad de velocidad</h2>
+            <h2>Hogwards Legacy</h2>
             <br />
             <p>
-              Disponible en game pass o adquierela en descuento en nuestra
-              tienda.
+            Domina hechizos, mejora tus habilidades y convertirte en la bruja o el mago que quieras ser.
             </p>
             <br />
             <h3>Descubre más +</h3>
@@ -122,14 +118,14 @@ function Index () {
         </div>
         <div className="text-bk-ft">
           <h3>
-            AVENTÚRATE EN EL CAPÍTULO 4 - TEMPORADA 1 DE BATTLE ROYALE DE
+            AVENTÚRATE EN EL CAPÍTULO 4 - TEMPORADA 2 DE BATTLE ROYALE DE
             FORTNITE
           </h3>
         </div>
       </div>
       <div className="card2-bk">
         <div className="img-mw-pc">
-          <img src={require(`../../img/principal/destacado/4MWII-BK-PC.jpg`)}  alt="" />
+          <img src={require(`../../img/principal/destacado/4MWII-BK-PC2.jpg`)}  alt="" />
         </div>
         <div className="img-mw-mobile">
           <img src={require(`../../img/principal/destacado/4MWII-BK-Mobile.jpg`)}  alt="" />
@@ -139,10 +135,7 @@ function Index () {
           <br />
           <div className="text-bk-ft3">
             <p>
-              Desde tácticas de infiltración a pequeña escala y de alto riesgo
-              hasta misiones altamente clasificadas, los jugadores se
-              desplegarán con la Fuerza operativa 141 en una campaña trotamundos
-              de un solo jugador.
+            Te damos la bienvenida a Ashika Island. Descubre un mundo de castillos, canales subterráneos y pintorescas zonas residenciales, domina a tus enemigos en el modo Resurgimiento.
             </p>
           </div>
         </div>
