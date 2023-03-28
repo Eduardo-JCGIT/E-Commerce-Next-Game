@@ -12,7 +12,7 @@ function Index () {
             </header>
             <main className="body-marg">
     <section>
-      <h1>¿Qué es lo AFREFASEAESSque tenemos hoy para ti? </h1>
+      <h1>¿Qué es lo que tenemos hoy para ti? </h1>
 
       <div className="cards">
         <div className="card1">
